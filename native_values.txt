@@ -1,0 +1,20 @@
+
+PKG='littlecaesars'
+APP_NAME='Little Caesars'
+FB_ID='321570144692012'
+GCM_ID='828577731932'
+
+PKG='NativeTargetShopperMagazine'
+APP_NAME='Target Shopper Magazine'
+FB_ID='696222663791041'
+GCM_ID='828577731932'
+
+PKG='NativeConvenientFoodMartNEPA'
+APP_NAME='Convenient Food Mart NEPA'
+FB_ID='301585593358144'
+GCM_ID='828577731932'
+
+PKG='dominospizza'
+APP_NAME="Domino\\\'s Rewards"
+FB_ID='664464750309962'
+GCM_ID='828577731932'

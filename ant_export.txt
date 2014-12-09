@@ -1,0 +1,13 @@
+
+
+export JAVA_HOME='/c/Program Files (x86)/Java/jdk1.7.0_71'
+export ANT_HOME=/c/apache-ant-1.9.4
+export PATH=${PATH}:${ANT_HOME}/bin
+
+cp /c/native_apps_resources/ant.properties .
+
+# /c/native_apps_resources/native_change_script.txt littlecaesars 'Little Caesars' 321570144692012
+
+/c/native_apps_resources/native_change_script.txt NativeTargetShopperMagazine 'Target Shopper Magazine' 696222663791041
+
+ant clean release

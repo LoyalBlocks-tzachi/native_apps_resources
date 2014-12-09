@@ -1,0 +1,69 @@
+export JAVA_HOME='/c/Program Files (x86)/Java/jdk1.7.0_71'
+export ANT_HOME=/c/apache-ant-1.9.4
+export PATH=${PATH}:${ANT_HOME}/bin
+
+cp /c/native_apps_resources/ant.properties .
+
+# /c/native_apps_resources/native_change_script.txt littlecaesars 'Little Caesars' 321570144692012
+
+/c/native_apps_resources/native_change_script.txt NativeTargetShopperMagazine 'Target Shopper Magazine' 696222663791041
+
+ant clean release
+
+
+
+PKG='littlecaesars'
+APP_NAME='Little Caesars'
+FB_ID='321570144692012'
+GCM_ID='828577731932'
+
+PKG='NativeTargetShopperMagazine'
+APP_NAME='Target Shopper Magazine'
+FB_ID='696222663791041'
+GCM_ID='828577731932'
+
+PKG='NativeConvenientFoodMartNEPA'
+APP_NAME='Convenient Food Mart NEPA'
+FB_ID='301585593358144'
+GCM_ID='828577731932'
+
+PKG='dominospizza'
+APP_NAME="Domino\\\'s Rewards"
+FB_ID='664464750309962'
+GCM_ID='828577731932'
+
+
+
+
+#!/bin/bash
+
+PKG='dominospizza'
+APP_NAME="Domino\\\'s Rewards"
+FB_ID='664464750309962'
+GCM_ID='828577731932'
+
+PKG_PATH="/c/native_apps_resources/${PKG}"
+
+mkdir -p ./src/com/loyalblocks/${PKG}
+mv src/loyalblocks/userapp/* src/com/loyalblocks/${PKG}
+rm -r src/loyalblocks
+
+find ./src/ -type f | xargs sed -i  -e "s/loyalblocks\.userapp/com\.loyalblocks\.${PKG}/g"
+find ./src/ -type f | xargs sed -i  -e "s/loyalblocks_userapp/com_loyalblocks_${PKG}/g"
+
+find ./res/ -type f | grep -v '\/drawable' | xargs sed -i  -e "s/loyalblocks\.userapp/com\.loyalblocks\.${PKG}/g"
+sed -i  -e "s/loyalblocks\.userapp/com\.loyalblocks\.${PKG}/g" AndroidManifest.xml
+
+sed -i  -e "s/\"app_name\">.*</\"app_name\">${APP_NAME}</g"  res/values/strings.xml
+sed -i  -e "s/\"app_id\">.*</\"app_id\">${FB_ID}</g"  res/values/strings.xml
+sed -i  -e "s/\"gcm_sender_id\">.*</\"gcm_sender_id\">${GCM_ID}</g"  res/values/strings.xml
+
+rm "res/drawable-ldpi/app_icon.png"
+cp "${PKG_PATH}/32.png" "res/drawable-ldpi/app_icon.png"
+cp "${PKG_PATH}/48.png" "res/drawable-mdpi/app_icon.png"
+cp "${PKG_PATH}/72.png" "res/drawable-hdpi/app_icon.png"
+cp "${PKG_PATH}/96.png" "res/drawable-xhdpi/app_icon.png"
+cp "${PKG_PATH}/native_splash.png" "res/drawable-xhdpi/native_splash.png"
+cp "${PKG_PATH}/review_share_pic_3stars_mini.png" "res/drawable-xhdpi/review_share_pic_3stars_mini.png"
+cp "${PKG_PATH}/review_share_pic_4stars_mini.png" "res/drawable-xhdpi/review_share_pic_4stars_mini.png"
+cp "${PKG_PATH}/review_share_pic_5stars_mini.png" "res/drawable-xhdpi/review_share_pic_5stars_mini.png"
