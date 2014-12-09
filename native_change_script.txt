@@ -17,7 +17,9 @@ find ./src/ -type f | xargs sed -i  -e "s/com_loyalblocks_[A-Za-z]*/com_loyalblo
 
 find ./res/ -type f | grep -v '\/drawable' | xargs sed -i  -e "s/com\.loyalblocks\.[A-Za-z]*/com\.loyalblocks\.${PKG}/g"
 sed -i  -e "s/com\.loyalblocks\.[A-Za-z]*/com\.loyalblocks\.${PKG}/g" AndroidManifest.xml
+
 sed -i  -e "s/<project name=\"[A-Za-z]*/<project name=\"${PKG}/g" build.xml
+sed -i "5s|.*|out.dir=c:/native_apps_resources/out_apk/${PKG}|" ant.properties
 
 sed -i  -e "s/\"app_name\">.*</\"app_name\">${APP_NAME}</g"  res/values/strings.xml
 sed -i  -e "s/\"app_id\">.*</\"app_id\">${FB_ID}</g"  res/values/strings.xml
