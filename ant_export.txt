@@ -1,13 +1,34 @@
-
+#!/bin/bash
 
 export JAVA_HOME='/c/Program Files (x86)/Java/jdk1.7.0_71'
 export ANT_HOME=/c/apache-ant-1.9.4
 export PATH=${PATH}:${ANT_HOME}/bin
 
 cp /c/native_apps_resources/ant.properties .
+cp /c/native_apps_resources/local.properties .
 
-# /c/native_apps_resources/native_change_script.txt littlecaesars 'Little Caesars' 321570144692012
+/c/native_apps_resources/native_create_script.txt
+
+ant clean release -l log1.txt
+
+/c/native_apps_resources/native_change_script.txt littlecaesars 'Little Caesars' 321570144692012
+
+ant clean release -l log2.txt
 
 /c/native_apps_resources/native_change_script.txt NativeTargetShopperMagazine 'Target Shopper Magazine' 696222663791041
 
-ant clean release
+ant clean release -l log3.txt
+
+/c/native_apps_resources/native_change_script.txt NativeConvenientFoodMartNEPA 'Convenient Food Mart NEPA' 301585593358144
+
+ant clean release -l log4.txt
+
+cd /c/native_apps_apks/
+foldername=$(date +%Y_%m_%d__%H_%M_%S)
+mkdir ${foldername}
+cd ${foldername}
+
+cp /c/native_apps_resources/out_apk/dominospizza/dominospizza-release.apk .
+cp /c/native_apps_resources/out_apk/littlecaesars/littlecaesars-release.apk .
+cp /c/native_apps_resources/out_apk/NativeTargetShopperMagazine/NativeTargetShopperMagazine-release.apk .
+cp /c/native_apps_resources/out_apk/NativeConvenientFoodMartNEPA/NativeConvenientFoodMartNEPA-release.apk .

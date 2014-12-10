@@ -1,0 +1,648 @@
+# view res/layout/menu_fragments_layout.xml #generated:1
+-keep class android.support.v4.app.FragmentTabHost { <init>(...); }
+
+# view res/layout/home_layout.xml #generated:11
+# view res/layout/instore_menu.xml #generated:55
+# view res/layout/show_picture_layout.xml #generated:21
+# view res/layout/tri_state.xml #generated:14
+# view res/layout/walkthrough.xml #generated:13
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.facebook.LoginActivity { <init>(...); }
+
+# view res/layout/com_facebook_usersettingsfragment.xml #generated:48
+-keep class com.facebook.widget.LoginButton { <init>(...); }
+
+# view res/layout/club_map.xml #generated:16
+# view res/layout/create_area.xml #generated:23
+# view res/layout/instore_club_map.xml #generated:28
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view res/layout/mapview.xml #generated:13
+-keep class com.google.android.maps.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.google.zxing.client.android.CaptureActivity { <init>(...); }
+
+# view ldpi\res/layout-ldpi/capture.xml #generated:25
+# view res/layout/capture.xml #generated:25
+-keep class com.google.zxing.client.android.ViewfinderView { <init>(...); }
+
+# view res/layout/search_book_contents_list_item.xml #generated:17
+-keep class com.google.zxing.client.android.book.SearchBookContentsListItem { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.loyalblocks.littlecaesars.AddPictureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.loyalblocks.littlecaesars.AllSpotsListAcitivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.loyalblocks.littlecaesars.AreYouHereActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.loyalblocks.littlecaesars.AreasListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.loyalblocks.littlecaesars.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.loyalblocks.littlecaesars.CameraPreview { <init>(...); }
+
+# view res/layout/instore_card.xml #generated:10
+# view res/layout/instore_menu.xml #generated:255
+# view res/layout/instore_menu.xml #generated:299
+-keep class com.loyalblocks.littlecaesars.CardBGView { <init>(...); }
+
+# view res/layout/area_category_list_item.xml #generated:2
+-keep class com.loyalblocks.littlecaesars.CategoryListItem { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.loyalblocks.littlecaesars.ChannelsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.loyalblocks.littlecaesars.ChatActivity { <init>(...); }
+
+# view res/layout/chat_list_item.xml #generated:40
+-keep class com.loyalblocks.littlecaesars.ChatBubbleView { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.loyalblocks.littlecaesars.ChatOwnerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.loyalblocks.littlecaesars.CheckInActivity { <init>(...); }
+
+# view res/layout/instore_template.xml #generated:309
+# view res/layout/redeem_dialog_layout.xml #generated:12
+# view res/layout/redeem_done.xml #generated:2
+-keep class com.loyalblocks.littlecaesars.ColoredLinearLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.loyalblocks.littlecaesars.CreateAccountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.loyalblocks.littlecaesars.CreateAreaActivity { <init>(...); }
+
+# view res/layout/instore_menu.xml #generated:60
+-keep class com.loyalblocks.littlecaesars.DotsLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.loyalblocks.littlecaesars.EditProfileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.loyalblocks.littlecaesars.EditWalkinsActivity { <init>(...); }
+
+# view res/layout/instore_punchcard.xml #generated:36
+-keep class com.loyalblocks.littlecaesars.ExpandableHeightGridView { <init>(...); }
+
+# view res/layout/all_spots_list.xml #generated:10
+-keep class com.loyalblocks.littlecaesars.ExtendedListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.loyalblocks.littlecaesars.FirstTimeRegistrationActivity { <init>(...); }
+
+# view res/layout/attach_pic_dialog.xml #generated:11
+# view res/layout/attach_pic_dialog.xml #generated:15
+# view res/layout/menu_layout.xml #generated:117
+# view res/layout/rate_us_dialog.xml #generated:18
+# view res/layout/rate_us_dialog.xml #generated:22
+# view res/layout/signup.xml #generated:41
+# view res/layout/tokens_list.xml #generated:42
+# view res/layout/tokens_list.xml #generated:45
+# view res/layout/walkthrough3.xml #generated:17
+-keep class com.loyalblocks.littlecaesars.FontableButton { <init>(...); }
+
+# view res/layout/add_photo.xml #generated:55
+# view res/layout/add_photo.xml #generated:57
+# view res/layout/add_photo.xml #generated:59
+# view res/layout/add_photo.xml #generated:67
+# view res/layout/add_photo.xml #generated:84
+# view res/layout/add_photo.xml #generated:98
+# view res/layout/add_picture.xml #generated:53
+# view res/layout/add_picture.xml #generated:55
+# view res/layout/add_picture.xml #generated:57
+# view res/layout/add_picture.xml #generated:65
+# view res/layout/all_spots_list.xml #generated:20
+# view res/layout/all_spots_list.xml #generated:27
+# view res/layout/all_spots_list_item.xml #generated:18
+# view res/layout/all_spots_list_item.xml #generated:22
+# view res/layout/all_spots_list_item.xml #generated:26
+# view res/layout/are_you_here_list_item.xml #generated:17
+# view res/layout/are_you_here_list_item.xml #generated:21
+# view res/layout/area_categories.xml #generated:16
+# view res/layout/area_categories.xml #generated:22
+# view res/layout/area_categories.xml #generated:26
+# view res/layout/area_categories.xml #generated:9
+# view res/layout/area_category_list_item.xml #generated:10
+# view res/layout/areas_list.xml #generated:10
+# view res/layout/areas_list.xml #generated:14
+# view res/layout/channels.xml #generated:22
+# view res/layout/channels.xml #generated:30
+# view res/layout/chat_broadcast_list_item.xml #generated:17
+# view res/layout/chat_broadcast_list_item.xml #generated:20
+# view res/layout/chat_broadcast_list_item.xml #generated:24
+# view res/layout/chat_broadcast_list_item.xml #generated:30
+# view res/layout/chat_list_item.xml #generated:14
+# view res/layout/chat_list_item.xml #generated:20
+# view res/layout/chat_list_item.xml #generated:44
+# view res/layout/chat_main_layout.xml #generated:21
+# view res/layout/chat_owner_layout.xml #generated:30
+# view res/layout/chat_user_list_item.xml #generated:14
+# view res/layout/chat_user_list_item.xml #generated:23
+# view res/layout/chat_user_list_item.xml #generated:26
+# view res/layout/chat_user_list_item.xml #generated:29
+# view res/layout/chat_user_list_item.xml #generated:34
+# view res/layout/create_area.xml #generated:13
+# view res/layout/create_area.xml #generated:18
+# view res/layout/create_area.xml #generated:31
+# view res/layout/create_area.xml #generated:38
+# view res/layout/create_area.xml #generated:42
+# view res/layout/create_area.xml #generated:53
+# view res/layout/create_area.xml #generated:57
+# view res/layout/create_area.xml #generated:71
+# view res/layout/create_area.xml #generated:9
+# view res/layout/edit_profile.xml #generated:54
+# view res/layout/fb_share_walkins.xml #generated:12
+# view res/layout/fb_walkins_list_item.xml #generated:12
+# view res/layout/first_time.xml #generated:35
+# view res/layout/first_time.xml #generated:39
+# view res/layout/first_time.xml #generated:43
+# view res/layout/first_time.xml #generated:48
+# view res/layout/first_time.xml #generated:50
+# view res/layout/first_time_native.xml #generated:38
+# view res/layout/first_time_native.xml #generated:42
+# view res/layout/first_time_native.xml #generated:46
+# view res/layout/first_time_native.xml #generated:51
+# view res/layout/first_time_native.xml #generated:53
+# view res/layout/home_layout.xml #generated:116
+# view res/layout/home_layout.xml #generated:121
+# view res/layout/home_layout.xml #generated:128
+# view res/layout/in_curl_layout.xml #generated:16
+# view res/layout/in_curl_layout.xml #generated:21
+# view res/layout/in_curl_layout.xml #generated:25
+# view res/layout/instore_card.xml #generated:102
+# view res/layout/instore_card.xml #generated:118
+# view res/layout/instore_card.xml #generated:120
+# view res/layout/instore_card.xml #generated:122
+# view res/layout/instore_card.xml #generated:127
+# view res/layout/instore_card.xml #generated:134
+# view res/layout/instore_card.xml #generated:140
+# view res/layout/instore_card.xml #generated:165
+# view res/layout/instore_card.xml #generated:169
+# view res/layout/instore_card.xml #generated:179
+# view res/layout/instore_card.xml #generated:190
+# view res/layout/instore_card.xml #generated:199
+# view res/layout/instore_card.xml #generated:202
+# view res/layout/instore_card.xml #generated:214
+# view res/layout/instore_card.xml #generated:220
+# view res/layout/instore_card.xml #generated:23
+# view res/layout/instore_card.xml #generated:233
+# view res/layout/instore_card.xml #generated:239
+# view res/layout/instore_card.xml #generated:26
+# view res/layout/instore_card.xml #generated:267
+# view res/layout/instore_card.xml #generated:39
+# view res/layout/instore_card.xml #generated:51
+# view res/layout/instore_card.xml #generated:58
+# view res/layout/instore_card.xml #generated:76
+# view res/layout/instore_card.xml #generated:84
+# view res/layout/instore_card.xml #generated:87
+# view res/layout/instore_card.xml #generated:90
+# view res/layout/instore_card.xml #generated:93
+# view res/layout/instore_card.xml #generated:96
+# view res/layout/instore_card.xml #generated:99
+# view res/layout/instore_card_redeemed.xml #generated:13
+# view res/layout/instore_card_redeemed.xml #generated:21
+# view res/layout/instore_club_map.xml #generated:23
+# view res/layout/instore_menu.xml #generated:109
+# view res/layout/instore_menu.xml #generated:124
+# view res/layout/instore_menu.xml #generated:131
+# view res/layout/instore_menu.xml #generated:134
+# view res/layout/instore_menu.xml #generated:141
+# view res/layout/instore_menu.xml #generated:144
+# view res/layout/instore_menu.xml #generated:147
+# view res/layout/instore_menu.xml #generated:172
+# view res/layout/instore_menu.xml #generated:175
+# view res/layout/instore_menu.xml #generated:259
+# view res/layout/instore_menu.xml #generated:273
+# view res/layout/instore_menu.xml #generated:291
+# view res/layout/instore_menu.xml #generated:303
+# view res/layout/instore_menu.xml #generated:322
+# view res/layout/instore_profile.xml #generated:15
+# view res/layout/instore_profile.xml #generated:161
+# view res/layout/instore_profile.xml #generated:164
+# view res/layout/instore_profile.xml #generated:18
+# view res/layout/instore_profile.xml #generated:49
+# view res/layout/instore_profile.xml #generated:52
+# view res/layout/instore_profile.xml #generated:55
+# view res/layout/instore_profile.xml #generated:75
+# view res/layout/instore_profile.xml #generated:83
+# view res/layout/instore_punchcard.xml #generated:18
+# view res/layout/instore_punchcard.xml #generated:22
+# view res/layout/instore_template.xml #generated:103
+# view res/layout/instore_template.xml #generated:132
+# view res/layout/instore_template.xml #generated:143
+# view res/layout/instore_template.xml #generated:154
+# view res/layout/instore_template.xml #generated:191
+# view res/layout/instore_template.xml #generated:194
+# view res/layout/instore_template.xml #generated:208
+# view res/layout/instore_template.xml #generated:215
+# view res/layout/instore_template.xml #generated:221
+# view res/layout/instore_template.xml #generated:227
+# view res/layout/instore_template.xml #generated:24
+# view res/layout/instore_template.xml #generated:243
+# view res/layout/instore_template.xml #generated:260
+# view res/layout/instore_template.xml #generated:266
+# view res/layout/instore_template.xml #generated:276
+# view res/layout/instore_template.xml #generated:296
+# view res/layout/instore_template.xml #generated:311
+# view res/layout/instore_template.xml #generated:315
+# view res/layout/instore_template.xml #generated:324
+# view res/layout/instore_template.xml #generated:330
+# view res/layout/instore_template.xml #generated:346
+# view res/layout/instore_template.xml #generated:348
+# view res/layout/instore_template.xml #generated:35
+# view res/layout/instore_template.xml #generated:351
+# view res/layout/instore_template.xml #generated:365
+# view res/layout/instore_template.xml #generated:421
+# view res/layout/instore_template.xml #generated:427
+# view res/layout/instore_template.xml #generated:431
+# view res/layout/instore_template.xml #generated:447
+# view res/layout/instore_template.xml #generated:450
+# view res/layout/instore_template.xml #generated:462
+# view res/layout/instore_template.xml #generated:465
+# view res/layout/instore_template.xml #generated:473
+# view res/layout/instore_template.xml #generated:479
+# view res/layout/instore_template.xml #generated:501
+# view res/layout/instore_template.xml #generated:507
+# view res/layout/instore_template.xml #generated:533
+# view res/layout/instore_template.xml #generated:538
+# view res/layout/instore_template.xml #generated:558
+# view res/layout/instore_template.xml #generated:562
+# view res/layout/instore_template.xml #generated:572
+# view res/layout/instore_template.xml #generated:577
+# view res/layout/instore_template.xml #generated:590
+# view res/layout/instore_template.xml #generated:64
+# view res/layout/instore_template.xml #generated:70
+# view res/layout/instore_template.xml #generated:76
+# view res/layout/list_header.xml #generated:4
+# view res/layout/loading.xml #generated:8
+# view res/layout/menu_layout.xml #generated:108
+# view res/layout/menu_layout.xml #generated:145
+# view res/layout/menu_layout.xml #generated:149
+# view res/layout/menu_layout.xml #generated:155
+# view res/layout/menu_layout.xml #generated:158
+# view res/layout/menu_layout.xml #generated:176
+# view res/layout/menu_layout.xml #generated:178
+# view res/layout/menu_layout.xml #generated:204
+# view res/layout/menu_layout.xml #generated:93
+# view res/layout/my_cards_list.xml #generated:20
+# view res/layout/my_cards_list.xml #generated:27
+# view res/layout/my_clubs_list_item.xml #generated:29
+# view res/layout/my_clubs_list_item.xml #generated:82
+# view res/layout/my_clubs_list_item.xml #generated:96
+# view res/layout/nearby_dist_panel.xml #generated:15
+# view res/layout/nearby_list_item.xml #generated:28
+# view res/layout/nearby_list_item.xml #generated:46
+# view res/layout/nearby_list_item.xml #generated:50
+# view res/layout/nearby_list_item.xml #generated:62
+# view res/layout/nearby_list_item.xml #generated:90
+# view res/layout/nearest_site_list_item.xml #generated:27
+# view res/layout/nearest_site_list_item.xml #generated:32
+# view res/layout/preview_app_cnt.xml #generated:12
+# view res/layout/preview_app_cnt.xml #generated:16
+# view res/layout/preview_app_cnt.xml #generated:28
+# view res/layout/preview_app_cnt.xml #generated:8
+# view res/layout/profile.xml #generated:20
+# view res/layout/profile.xml #generated:23
+# view res/layout/profile.xml #generated:39
+# view res/layout/profile.xml #generated:52
+# view res/layout/profile.xml #generated:56
+# view res/layout/profile.xml #generated:76
+# view res/layout/punchcard_visit.xml #generated:9
+# view res/layout/rate_us_dialog.xml #generated:13
+# view res/layout/rate_us_dialog.xml #generated:26
+# view res/layout/rate_us_dialog.xml #generated:9
+# view res/layout/redeem_dialog.xml #generated:11
+# view res/layout/redeem_dialog.xml #generated:23
+# view res/layout/redeem_dialog.xml #generated:29
+# view res/layout/redeem_dialog.xml #generated:33
+# view res/layout/redeem_dialog.xml #generated:8
+# view res/layout/redeem_dialog_layout.xml #generated:17
+# view res/layout/redeem_dialog_layout.xml #generated:26
+# view res/layout/redeem_dialog_layout.xml #generated:30
+# view res/layout/redeem_dialog_layout.xml #generated:34
+# view res/layout/redeem_dialog_layout.xml #generated:45
+# view res/layout/redeem_dialog_layout.xml #generated:51
+# view res/layout/redeem_dialog_layout.xml #generated:57
+# view res/layout/redeem_done.xml #generated:14
+# view res/layout/redeem_done.xml #generated:17
+# view res/layout/redeem_done.xml #generated:29
+# view res/layout/redeem_done.xml #generated:49
+# view res/layout/redeem_done.xml #generated:51
+# view res/layout/redeem_done.xml #generated:54
+# view res/layout/redeem_done.xml #generated:56
+# view res/layout/redeem_done.xml #generated:66
+# view res/layout/redeem_done.xml #generated:69
+# view res/layout/redeem_done.xml #generated:78
+# view res/layout/redeem_done.xml #generated:90
+# view res/layout/reward_details.xml #generated:15
+# view res/layout/reward_details.xml #generated:21
+# view res/layout/reward_details.xml #generated:30
+# view res/layout/reward_details.xml #generated:41
+# view res/layout/reward_details.xml #generated:44
+# view res/layout/reward_details.xml #generated:46
+# view res/layout/reward_details.xml #generated:48
+# view res/layout/reward_details.xml #generated:50
+# view res/layout/reward_details.xml #generated:52
+# view res/layout/reward_details.xml #generated:54
+# view res/layout/reward_details.xml #generated:56
+# view res/layout/reward_details.xml #generated:60
+# view res/layout/reward_details.xml #generated:9
+# view res/layout/reward_list_item.xml #generated:10
+# view res/layout/search_club_name_list_item.xml #generated:14
+# view res/layout/search_club_name_list_item.xml #generated:21
+# view res/layout/search_place_list_item.xml #generated:10
+# view res/layout/search_place_list_item_cur_loc.xml #generated:7
+# view res/layout/show_picture_layout.xml #generated:48
+# view res/layout/show_picture_layout.xml #generated:50
+# view res/layout/show_picture_layout.xml #generated:53
+# view res/layout/show_picture_layout.xml #generated:56
+# view res/layout/signin.xml #generated:22
+# view res/layout/signin.xml #generated:30
+# view res/layout/signin.xml #generated:33
+# view res/layout/signin.xml #generated:69
+# view res/layout/signin.xml #generated:76
+# view res/layout/signin.xml #generated:79
+# view res/layout/signup.xml #generated:24
+# view res/layout/signup.xml #generated:51
+# view res/layout/signup.xml #generated:53
+# view res/layout/signup_details.xml #generated:13
+# view res/layout/signup_details.xml #generated:16
+# view res/layout/spotted_layout.xml #generated:11
+# view res/layout/spotted_layout.xml #generated:15
+# view res/layout/spotted_layout.xml #generated:31
+# view res/layout/spotted_layout.xml #generated:37
+# view res/layout/status_info_view.xml #generated:10
+# view res/layout/status_info_view.xml #generated:12
+# view res/layout/take_to_ny.xml #generated:12
+# view res/layout/take_to_ny.xml #generated:23
+# view res/layout/token_details.xml #generated:17
+# view res/layout/token_details.xml #generated:23
+# view res/layout/token_details.xml #generated:26
+# view res/layout/token_details.xml #generated:33
+# view res/layout/token_details.xml #generated:53
+# view res/layout/token_overview.xml #generated:12
+# view res/layout/token_overview.xml #generated:17
+# view res/layout/token_overview.xml #generated:22
+# view res/layout/token_overview.xml #generated:8
+# view res/layout/token_reward_layout.xml #generated:7
+# view res/layout/tokens_list.xml #generated:15
+# view res/layout/tokens_list.xml #generated:26
+# view res/layout/tokens_list.xml #generated:30
+# view res/layout/tokens_list.xml #generated:51
+# view res/layout/tokens_multi_list.xml #generated:21
+# view res/layout/tokens_multi_list.xml #generated:24
+# view res/layout/tokens_multi_list.xml #generated:27
+# view res/layout/tokens_multi_list.xml #generated:41
+# view res/layout/tokens_multi_list.xml #generated:52
+# view res/layout/tokens_multi_list.xml #generated:71
+# view res/layout/tri_state.xml #generated:8
+# view res/layout/tri_state0.xml #generated:17
+# view res/layout/tri_state0.xml #generated:22
+# view res/layout/tri_state1.xml #generated:17
+# view res/layout/tri_state1.xml #generated:22
+# view res/layout/tri_state2.xml #generated:17
+# view res/layout/tri_state2.xml #generated:22
+# view res/layout/unlocked_tokens_header.xml #generated:2
+# view res/layout/walkthrough.xml #generated:8
+# view res/layout/walkthrough1.xml #generated:17
+# view res/layout/walkthrough2.xml #generated:21
+# view res/layout/walkthrough3.xml #generated:11
+-keep class com.loyalblocks.littlecaesars.FontableTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.loyalblocks.littlecaesars.GalleryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.loyalblocks.littlecaesars.GcmBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:166
+-keep class com.loyalblocks.littlecaesars.GcmIntentService { <init>(...); }
+
+# view res/layout/horizontal_card.xml #generated:8
+# view res/layout/instore_template.xml #generated:490
+-keep class com.loyalblocks.littlecaesars.HorizontalCardLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.loyalblocks.littlecaesars.IBeaconService { <init>(...); }
+
+# view res/layout/in_curl_layout.xml #generated:2
+-keep class com.loyalblocks.littlecaesars.InCurlLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.loyalblocks.littlecaesars.InStoreActivity { <init>(...); }
+
+# view res/layout/instore_template.xml #generated:162
+-keep class com.loyalblocks.littlecaesars.InstoreActionButton { <init>(...); }
+
+# view res/layout/instore_menu.xml #generated:100
+# view res/layout/instore_menu.xml #generated:43
+# view res/layout/instore_menu.xml #generated:45
+# view res/layout/instore_menu.xml #generated:47
+# view res/layout/instore_menu.xml #generated:49
+# view res/layout/instore_profile.xml #generated:11
+# view res/layout/instore_template.xml #generated:354
+# view res/layout/instore_template.xml #generated:530
+# view res/layout/instore_template.xml #generated:556
+-keep class com.loyalblocks.littlecaesars.InstoreLogoView { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.loyalblocks.littlecaesars.InstoreMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.loyalblocks.littlecaesars.InstoreProfileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.loyalblocks.littlecaesars.InstoreRewardListActivity { <init>(...); }
+
+# view res/layout/instore_template.xml #generated:341
+-keep class com.loyalblocks.littlecaesars.InstoreSplashView { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.loyalblocks.littlecaesars.InstoreTokenListActivity { <init>(...); }
+
+# view res/layout/instore_menu.xml #generated:26
+-keep class com.loyalblocks.littlecaesars.InstoreTopCardLayout { <init>(...); }
+
+# view res/layout/instore_menu.xml #generated:31
+-keep class com.loyalblocks.littlecaesars.InstoreYelpView { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.loyalblocks.littlecaesars.LocationPollerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:9
+-keep class com.loyalblocks.littlecaesars.LoyalBlocksApplicationClass { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.loyalblocks.littlecaesars.MembershipDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.loyalblocks.littlecaesars.MembershipGalleryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.loyalblocks.littlecaesars.MembershipProfileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.loyalblocks.littlecaesars.MembershipTabActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.loyalblocks.littlecaesars.MembershipsListActivity { <init>(...); }
+
+# view res/layout/add_photo.xml #generated:91
+# view res/layout/chat_main_layout.xml #generated:17
+# view res/layout/chat_owner_layout.xml #generated:25
+# view res/layout/create_area.xml #generated:61
+# view res/layout/edit_profile.xml #generated:25
+# view res/layout/edit_profile.xml #generated:28
+# view res/layout/edit_profile.xml #generated:37
+# view res/layout/menu_layout.xml #generated:162
+# view res/layout/menu_layout.xml #generated:187
+# view res/layout/menu_layout.xml #generated:99
+# view res/layout/signin.xml #generated:40
+# view res/layout/signin.xml #generated:44
+# view res/layout/signup.xml #generated:31
+# view res/layout/signup.xml #generated:33
+# view res/layout/signup.xml #generated:35
+# view res/layout/signup_details.xml #generated:32
+# view res/layout/signup_details.xml #generated:35
+# view res/layout/signup_details.xml #generated:38
+# view res/layout/signup_details.xml #generated:42
+-keep class com.loyalblocks.littlecaesars.MyEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.loyalblocks.littlecaesars.MyProfileActivity { <init>(...); }
+
+# view res/layout/nearby_list_item.xml #generated:10
+-keep class com.loyalblocks.littlecaesars.NearbyPlaceLayout { <init>(...); }
+
+# view res/layout/all_spots_list_item.xml #generated:44
+# view res/layout/token_details.xml #generated:56
+-keep class com.loyalblocks.littlecaesars.PageCurlView { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.loyalblocks.littlecaesars.PickerActivity { <init>(...); }
+
+# view res/layout/add_photo.xml #generated:6
+# view res/layout/add_picture.xml #generated:6
+# view res/layout/add_picture_rot.xml #generated:6
+-keep class com.loyalblocks.littlecaesars.Preview { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.loyalblocks.littlecaesars.ProfileActivity { <init>(...); }
+
+# view res/layout/instore_template.xml #generated:418
+-keep class com.loyalblocks.littlecaesars.PromoteBGView { <init>(...); }
+
+# view res/layout/instore_template.xml #generated:437
+-keep class com.loyalblocks.littlecaesars.PromoteButtonView { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.loyalblocks.littlecaesars.PunchCardDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.loyalblocks.littlecaesars.PunchCardListActivity { <init>(...); }
+
+# view res/layout/instore_card.xml #generated:276
+-keep class com.loyalblocks.littlecaesars.PunchCardStampView { <init>(...); }
+
+# view res/layout/instore_menu.xml #generated:34
+-keep class com.loyalblocks.littlecaesars.RadialGradBGView { <init>(...); }
+
+# view res/layout/instore_template.xml #generated:551
+-keep class com.loyalblocks.littlecaesars.RedeemBGView { <init>(...); }
+
+# view res/layout/reward_pager_item.xml #generated:8
+# view res/layout/status_info_view.xml #generated:19
+-keep class com.loyalblocks.littlecaesars.RewardTextView { <init>(...); }
+
+# view res/layout/are_you_here_list_item.xml #generated:3
+-keep class com.loyalblocks.littlecaesars.RoundedFrameLayout { <init>(...); }
+
+# view res/layout/chat_broadcast_list_item.xml #generated:10
+# view res/layout/chat_user_list_item.xml #generated:10
+# view res/layout/instore_template.xml #generated:519
+# view res/layout/my_clubs_list_item.xml #generated:27
+# view res/layout/nearby_list_item.xml #generated:19
+# view res/layout/nearby_list_item.xml #generated:83
+# view res/layout/nearest_site_list_item.xml #generated:22
+# view res/layout/search_club_name_list_item.xml #generated:6
+# view res/layout/signup_details.xml #generated:24
+-keep class com.loyalblocks.littlecaesars.RoundedImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.loyalblocks.littlecaesars.ShowMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.loyalblocks.littlecaesars.ShowPictureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.loyalblocks.littlecaesars.SignInActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.loyalblocks.littlecaesars.SignUpCheckInMethodActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.loyalblocks.littlecaesars.SignUpNameActivity { <init>(...); }
+
+# view res/layout/first_time.xml #generated:26
+-keep class com.loyalblocks.littlecaesars.SignupBGView { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.loyalblocks.littlecaesars.SiteNearbyDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.loyalblocks.littlecaesars.SitesMapActivity { <init>(...); }
+
+# view res/layout/instore_menu.xml #generated:41
+-keep class com.loyalblocks.littlecaesars.StatusIconFlipper { <init>(...); }
+
+# view res/layout/status_info_view.xml #generated:16
+-keep class com.loyalblocks.littlecaesars.StatusProgressView { <init>(...); }
+
+# view res/layout/fb_walkins_list_item.xml #generated:22
+# view res/layout/instore_card.xml #generated:60
+# view res/layout/instore_profile.xml #generated:60
+-keep class com.loyalblocks.littlecaesars.Switch { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.loyalblocks.littlecaesars.TakeToNYActivity { <init>(...); }
+
+# view res/layout/instore_profile.xml #generated:25
+# view res/layout/instore_profile.xml #generated:28
+-keep class com.loyalblocks.littlecaesars.ThreeCirclesView { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.loyalblocks.littlecaesars.TokenListActivity { <init>(...); }
+
+# view res/layout/instore_card_pager.xml #generated:6
+-keep class com.loyalblocks.littlecaesars.TokensPager { <init>(...); }
+
+# view res/layout/tokens_multi_list.xml #generated:12
+-keep class com.loyalblocks.littlecaesars.TokensSwitchView { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.loyalblocks.littlecaesars.TriStateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.loyalblocks.littlecaesars.UAIntentReceiver { <init>(...); }
+
+# view res/layout/instore_menu.xml #generated:115
+-keep class com.loyalblocks.littlecaesars.UserDetailsFlipper { <init>(...); }
+
+# view res/layout/my_clubs_list_item.xml #generated:18
+-keep class com.loyalblocks.littlecaesars.YelpImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.loyalblocks.littlecaesars.YouActivity { <init>(...); }
+

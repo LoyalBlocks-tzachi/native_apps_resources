@@ -4,7 +4,7 @@
 PKG='dominospizza'
 APP_NAME="Domino\\\'s Rewards"
 FB_ID='664464750309962'
-GCM_ID='828577731932'
+# GCM_ID='828577731932'
 
 PKG_PATH="/c/native_apps_resources/${PKG}"
 
@@ -23,7 +23,7 @@ sed -i "5s|.*|out.dir=c:/native_apps_resources/out_apk/${PKG}|" ant.properties
 
 sed -i  -e "s/\"app_name\">.*</\"app_name\">${APP_NAME}</g"  res/values/strings.xml
 sed -i  -e "s/\"app_id\">.*</\"app_id\">${FB_ID}</g"  res/values/strings.xml
-sed -i  -e "s/\"gcm_sender_id\">.*</\"gcm_sender_id\">${GCM_ID}</g"  res/values/strings.xml
+# sed -i  -e "s/\"gcm_sender_id\">.*</\"gcm_sender_id\">${GCM_ID}</g"  res/values/strings.xml
 
 rm "res/drawable-ldpi/app_icon.png"
 cp "${PKG_PATH}/32.png" "res/drawable-ldpi/app_icon.png"
