@@ -13,7 +13,7 @@ cp "${resfolder}/local.properties" .
 
 ${resfolder}/native_prepare_app.sh
 
-while IFS=# read pkg appname fbid           
+while IFS=: read pkg appname fbid           
 do 
          
 echo -e "converting to package $pkg name : $appname  \n"
