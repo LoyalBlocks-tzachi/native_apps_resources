@@ -1,0 +1,26 @@
+#!/bin/bash
+
+export JAVA_HOME='/c/Program Files (x86)/Java/jdk1.7.0_71'
+export ANT_HOME=/c/apache-ant-1.9.4
+export PATH=${PATH}:${ANT_HOME}/bin
+
+cp /c/native_apps_resources/ant.properties .
+cp /c/native_apps_resources/local.properties .
+
+foldername="/c/native_apps_apks/$(date +%Y_%m_%d__%H_%M_%S)"
+mkdir ${foldername}
+
+/c/native_apps_resources/native_prepare_script.txt
+
+while IFS=# read pkg appname fbid           
+do 
+         
+echo -e "$pkg : $appname : $fbid \n"
+
+/c/native_apps_resources/native_change_script.txt $pkg "$appname" $fbid
+
+ant clean release -l log_${pkg}.txt
+
+cp "/c/native_apps_resources/out_apk/$pkg/$pkg-release.apk" ${foldername}          
+         
+done < /c/native_apps_resources/native_data.txt

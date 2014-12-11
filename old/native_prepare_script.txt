@@ -1,0 +1,20 @@
+
+#!/bin/bash
+
+PKG='userapp'
+
+mkdir -p ./src/com/loyalblocks/${PKG}
+mv src/loyalblocks/userapp/* src/com/loyalblocks/${PKG}
+rm -r src/loyalblocks
+
+find ./src/ -type f | xargs sed -i  -e "s/loyalblocks\.userapp/com\.loyalblocks\.${PKG}/g"
+find ./src/ -type f | xargs sed -i  -e "s/loyalblocks_userapp/com_loyalblocks_${PKG}/g"
+
+find ./res/ -type f | grep -v '\/drawable' | xargs sed -i  -e "s/loyalblocks\.userapp/com\.loyalblocks\.${PKG}/g"
+sed -i  -e "s/loyalblocks\.userapp/com\.loyalblocks\.${PKG}/g" AndroidManifest.xml
+
+
+
+
+
+                                                                        
